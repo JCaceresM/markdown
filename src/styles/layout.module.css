@@ -1,0 +1,93 @@
+/* Layout */
+.flexColumn {
+  height: 100vh;
+}
+
+.flex {
+  flex: 1;
+}
+
+.hFull {
+  height: 100%;
+}
+
+/* Border and spacing */
+.border {
+  padding: 1rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f5f5f5;
+}
+
+/* Flexbox utilities */
+.displayFlex {
+  display: flex;
+}
+
+.justifyBetween {
+  justify-content: space-between;
+}
+
+.alignItems {
+  align-items: center;
+}
+
+/* Text area */
+.textArea {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 10rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.textArea:focus {
+  outline: none;
+  box-shadow: none; /* Para focus:ring-0 */
+}
+
+/* Toolbar button */
+.toolbarButton {
+  background: none;
+  border: none;
+  color: rgb(77, 91, 124);
+  cursor: pointer;
+  display: block;
+  height: 24px;
+  line-height: 1;
+  margin: 0px 5px 0px 0px;
+  padding: 0px;
+  position: relative;
+  transition: color 0.3s ease 0s;
+  width: 24px;
+}
+
+.toolbarButton:hover {
+  color: #0069ff;
+}
+
+/* General button */
+.button {
+  display: inline-block;
+  color: #fff;
+  padding: 4px 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover,
+.button:active {
+  background-color: #006aff46;
+}
+
+/* Overflow */
+.overflowY {
+  overflow-y: auto;
+}
