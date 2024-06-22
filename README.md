@@ -1,15 +1,17 @@
 ## Getting Started
 
-First, run the development server:
+### Installation
+
+First, install dependencies:
 
 ```bash
-npm i
+npm install
 
 npm run dev
 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your web browser to view the Markdown Previewer locally. Alternatively, check the [live deployment](https://markdown-ebdkuv0km-jonas-caceres-martes-projects.vercel.app/) to see if the app is available online.
 
 ## Requeriments
 Markdown Previewer:
