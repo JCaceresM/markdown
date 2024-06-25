@@ -11,7 +11,7 @@ npm run dev
 
 ```
 
-Open http://localhost:3000 in your web browser to view the Markdown Previewer locally. Alternatively, check the [live deployment](https://markdown-ebdkuv0km-jonas-caceres-martes-projects.vercel.app/) to see if the app is available online.
+Open http://localhost:3000 in your web browser to view the Markdown Previewer locally. Alternatively, check the [live deployment](https://markdown-lemon.vercel.app/) to see if the app is available online.
 
 ## Requeriments
 Markdown Previewer:
